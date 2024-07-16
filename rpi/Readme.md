@@ -27,7 +27,7 @@ wget -qO- https://github.com/RoboCup-SSL/ssl-status-board/releases/latest/downlo
 ## Change hostname afterwards
 ```shell
 sudo raspi-config # change hostname but don´t reboot
-rm rf ./.config/nwjs/
-rm -rf./.config/ssl-status-board
+rm -rf ./.config/nwjs/
+rm -rf ./.config/ssl-status-board
 # reboot now
 ```
